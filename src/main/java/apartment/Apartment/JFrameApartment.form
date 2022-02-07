@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Menu class="javax.swing.JMenuBar" name="myMenu">
+      <SubComponents>
+        <Menu class="javax.swing.JMenu" name="jMenu1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#xe23;&#xe30;&#xe1a;&#xe1a;&#xe08;&#xe31;&#xe14;&#xe01;&#xe32;&#xe23;&#xe02;&#xe49;&#xe2d;&#xe21;&#xe39;&#xe25;&#xe1e;&#xe37;&#xe49;&#xe19;&#xe10;&#xe32;&#xe19;"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="menuApartment">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xe02;&#xe49;&#xe2d;&#xe21;&#xe39;&#xe25;&#xe2d;&#xe1e;&#xe32;&#xe23;&#xe4c;&#xe17;&#xe40;&#xe21;&#xe19;&#xe17;&#xe4c;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="menuApartmentActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="menuTenant">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xe02;&#xe49;&#xe2d;&#xe21;&#xe39;&#xe25;&#xe1c;&#xe39;&#xe49;&#xe40;&#xe0a;&#xe48;&#xe32;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="menuTenantActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="menuRoom">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xe02;&#xe49;&#xe2d;&#xe21;&#xe39;&#xe25;&#xe2b;&#xe49;&#xe2d;&#xe07;&#xe1e;&#xe31;&#xe01;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="menuRoomActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="menuTenantRoom">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xe02;&#xe49;&#xe2d;&#xe21;&#xe39;&#xe25;&#xe1c;&#xe39;&#xe49;&#xe40;&#xe0a;&#xe48;&#xe32;&#xe2b;&#xe49;&#xe2d;&#xe07;&#xe1e;&#xe31;&#xe01;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="menuTenantRoomActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="menuExitForm">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xe2d;&#xe2d;&#xe01;&#xe08;&#xe32;&#xe01;&#xe42;&#xe1b;&#xe23;&#xe41;&#xe01;&#xe23;&#xe21;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="menuExitFormActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="jMenu2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#xe23;&#xe30;&#xe1a;&#xe1a;&#xe08;&#xe31;&#xe14;&#xe01;&#xe32;&#xe23;&#xe2d;&#xe1e;&#xe32;&#xe23;&#xe4c;&#xe17;&#xe40;&#xe21;&#xe19;&#xe17;&#xe4c;"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="menuRentApartment">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xe01;&#xe32;&#xe23;&#xe40;&#xe0a;&#xe48;&#xe32;&#xe2d;&#xe1e;&#xe32;&#xe23;&#xe4c;&#xe17;&#xe40;&#xe21;&#xe19;&#xe17;&#xe4c;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="menuRentApartmentActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="menuMainApartment">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xe01;&#xe32;&#xe23;&#xe1a;&#xe33;&#xe23;&#xe38;&#xe07;&#xe23;&#xe31;&#xe01;&#xe29;&#xe32;&#xe2d;&#xe1e;&#xe32;&#xe23;&#xe4c;&#xe17;&#xe40;&#xe21;&#xe19;&#xe17;&#xe4c;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="menuMainApartmentActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="menuExitFormManagment">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xe2d;&#xe2d;&#xe01;&#xe08;&#xe32;&#xe01;&#xe42;&#xe1b;&#xe23;&#xe41;&#xe01;&#xe23;&#xe21;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="menuExitFormManagmentActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="menuExitReport">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#xe23;&#xe30;&#xe1a;&#xe1a;&#xe41;&#xe2a;&#xe14;&#xe07;&#xe23;&#xe32;&#xe22;&#xe07;&#xe32;&#xe19;"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="menuReportNetIncome">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xe23;&#xe32;&#xe22;&#xe07;&#xe32;&#xe19;&#xe41;&#xe2a;&#xe14;&#xe07;&#xe23;&#xe32;&#xe22;&#xe44;&#xe14;&#xe49;&#xe2a;&#xe38;&#xe17;&#xe18;&#xe34;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="menuReportNetIncomeActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="menuReportRoom">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xe23;&#xe32;&#xe22;&#xe07;&#xe32;&#xe19;&#xe41;&#xe2a;&#xe14;&#xe07;&#xe02;&#xe49;&#xe2d;&#xe21;&#xe39;&#xe25;&#xe2b;&#xe49;&#xe2d;&#xe07;&#xe27;&#xe48;&#xe32;&#xe07;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="menuReportRoomActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="menuReportRentCondition">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xe23;&#xe32;&#xe22;&#xe07;&#xe32;&#xe19;&#xe41;&#xe2a;&#xe14;&#xe07;&#xe02;&#xe49;&#xe2d;&#xe21;&#xe39;&#xe25;&#xe1c;&#xe39;&#xe49;&#xe40;&#xe0a;&#xe48;&#xe32;&#xe15;&#xe32;&#xe21;&#xe40;&#xe07;&#xe37;&#xe48;&#xe2d;&#xe19;&#xe44;&#xe02;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="menuReportRentConditionActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem12">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#xe2d;&#xe2d;&#xe01;&#xe08;&#xe32;&#xe01;&#xe42;&#xe1b;&#xe23;&#xe41;&#xe01;&#xe23;&#xe21;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem12ActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+      </SubComponents>
+    </Menu>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="menuBar" type="java.lang.String" value="myMenu"/>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="myDesktop" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="myDesktop" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JDesktopPane" name="myDesktop">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="432" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="280" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+    </Container>
+  </SubComponents>
+</Form>
